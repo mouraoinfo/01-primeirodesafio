@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Completo para o Uso de Tags HTML</title>
+    <style>
+        .example {
+            background-color: #f4f4f4;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .example code {
+            display: block;
+            padding: 10px;
+            background-color: #eaeaea;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Guia Completo para o Uso de Tags HTML</h1>
+
+    <h2 id="indice">Índice</h2>
+    <ul>
+        <li><a href="#cabecalhos">Cabeçalhos</a></li>
+        <li><a href="#paragrafos">Parágrafos</a></li>
+        <li><a href="#marcacao">Marcação de Texto</a></li>
+        <li><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+        <li><a href="#links">Links</a></li>
+        <li><a href="#linha">Linha Horizontal</a></li>
+        <li><a href="#subscrito">Subscrito e Sobrescrito</a></li>
+        <li><a href="#citacao">Citação</a></li>
+        <li><a href="#fonte">Fonte</a></li>
+        <li><a href="#abreviacoes">Abreviações</a></li>
+    </ul>
+
+    <p>HTML (HyperText Markup Language) é a base da construção de páginas web. As tags HTML são usadas para definir a estrutura e o conteúdo das páginas, e conhecê-las bem é essencial para qualquer desenvolvedor web. Neste guia, vamos explorar algumas das tags HTML mais comuns e mostrar exemplos práticos de como usá-las.</p>
+
+    <h2 id="cabecalhos">Cabeçalhos: <code>&lt;h1&gt;</code> até <code>&lt;h6&gt;</code></h2> <a href="#indice">Voltar ao início</a>
+    <p>Os cabeçalhos são usados para definir títulos e subtítulos. Eles variam de <code>&lt;h1&gt;</code> (mais importante) até <code>&lt;h6&gt;</code> (menos importante).</p>
+    <div class="example">
+        <code>
+            &lt;h1&gt;Este é um título de nível 1&lt;/h1&gt;<br>
+            &lt;h2&gt;Este é um título de nível 2&lt;/h2&gt;<br>
+            &lt;h3&gt;Este é um título de nível 3&lt;/h3&gt;<br>
+            &lt;h4&gt;Este é um título de nível 4&lt;/h4&gt;<br>
+            &lt;h5&gt;Este é um título de nível 5&lt;/h5&gt;<br>
+            &lt;h6&gt;Este é um título de nível 6&lt;/h6&gt;
+        </code>
+        <h1>Este é um título de nível 1</h1>
+        <h2>Este é um título de nível 2</h2>
+        <h3>Este é um título de nível 3</h3>
+        <h4>Este é um título de nível 4</h4>
+        <h5>Este é um título de nível 5</h5>
+        <h6>Este é um título de nível 6</h6>
+    </div>
+
+    <h2 id="paragrafos">Parágrafos: <code>&lt;p&gt;</code></h2> <a href="#indice">Voltar ao início</a>
+    <p>A tag <code>&lt;p&gt;</code> é usada para definir parágrafos de texto.</p>
+    <div class="example">
+        <code>&lt;p&gt;Este é um parágrafo de exemplo.&lt;/p&gt;</code>
+        <p>Este é um parágrafo de exemplo.</p>
+    </div>
+
+    <h2 id="marcacao">Marcação de Texto: <code>&lt;mark&gt;</code>, <code>&lt;small&gt;</code>, <code>&lt;i&gt;</code>, <code>&lt;u&gt;</code>, <code>&lt;strong&gt;</code>, <code>&lt;del&gt;</code></h2>  <a href="#indice">Voltar ao início</a>
+    <p>Estas tags são usadas para estilizar o texto de diferentes maneiras.</p>
+    <div class="example">
+        <code>
+            &lt;p&gt;Este texto tem uma &lt;mark&gt;marcação&lt;/mark&gt; especial.&lt;/p&gt;<br>
+            &lt;p&gt;Este texto é &lt;small&gt;menor&lt;/small&gt; que o normal.&lt;/p&gt;<br>
+            &lt;p&gt;Este texto está em &lt;i&gt;itálico&lt;/i&gt;.&lt;/p&gt;<br>
+            &lt;p&gt;Este texto está &lt;u&gt;sublinhado&lt;/u&gt;.&lt;/p&gt;<br>
+            &lt;p&gt;Este texto está em &lt;strong&gt;negrito&lt;/strong&gt;.&lt;/p&gt;<br>
+            &lt;p&gt;Este texto foi &lt;del&gt;deletado&lt;/del&gt;.&lt;/p&gt;
+        </code>
+        <p>Este texto tem uma <mark>marcação</mark> especial.</p>
+        <p>Este texto é <small>menor</small> que o normal.</p>
+        <p>Este texto está em <i>itálico</i>.</p>
+        <p>Este texto está <u>sublinhado</u>.</p>
+        <p>Este texto está em <strong>negrito</strong>.</p>
+        <p>Este texto foi <del>deletado</del>.</p>
+    </div>
+
+    <h2 id="listas">Listas Ordenadas e Não Ordenadas: <code>&lt;ol&gt;</code>, <code>&lt;ul&gt;</code>, <code>&lt;li&gt;</code></h2>  <a href="#indice">Voltar ao início</a>
+    <p>Listas ajudam a organizar o conteúdo.</p>
+    <div class="example">
+        <code>
+            &lt;ol&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Item 1 de uma lista ordenada&lt;/li&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Item 2 de uma lista ordenada&lt;/li&gt;<br>
+            &lt;/ol&gt;<br><br>
+            &lt;ul&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Item 1 de uma lista não ordenada&lt;/li&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Item 2 de uma lista não ordenada&lt;/li&gt;<br>
+            &lt;/ul&gt;
+        </code>
+        <ol>
+            <li>Item 1 de uma lista ordenada</li>
+            <li>Item 2 de uma lista ordenada</li>
+        </ol>
+        <ul>
+            <li>Item 1 de uma lista não ordenada</li>
+            <li>Item 2 de uma lista não ordenada</li>
+        </ul>
+    </div>
+
+    <h2 id="links">Links: <code>&lt;a&gt;</code></h2>  <a href="#indice">Voltar ao início</a>
+    <p>A tag <code>&lt;a&gt;</code> é usada para criar hyperlinks.</p>
+    <div class="example">
+        <code>&lt;a href="https://example.com"&gt;Visite o Example.com&lt;/a&gt;</code>
+        <p><a href="https://example.com">Visite o Example.com</a></p>
+    </div>
+
+    <h2 id="linha">Linha Horizontal: <code>&lt;hr&gt;</code></h2>  <a href="#indice">Voltar ao início</a>
+    <p>A tag <code>&lt;hr&gt;</code> é usada para inserir uma linha horizontal, geralmente para separar seções de conteúdo.</p>
+    <div class="example">
+        <code>&lt;hr&gt;</code>
+        <hr>
+    </div>
+
+    <h2 id="subscrito">Subscrito e Sobrescrito: <code>&lt;sub&gt;</code>, <code>&lt;sup&gt;</code></h2>   <a href="#indice">Voltar ao início</a>
+    <p>Estas tags são usadas para texto subscrito e sobrescrito, respectivamente.</p>
+    <div class="example">
+        <code>
+            &lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O é a fórmula da água.&lt;/p&gt;<br>
+            &lt;p&gt;E=mc&lt;sup&gt;2&lt;/sup&gt; é a famosa equação de Einstein.&lt;/p&gt;
+        </code>
+        <p>H<sub>2</sub>O é a fórmula da água.</p>
+        <p>E=mc<sup>2</sup> é a famosa equação de Einstein.</p>
+    </div>
+
+    <h2 id="citacao">Citação: <code>&lt;blockquote&gt;</code></h2>    <a href="#indice">Voltar ao início</a>
+    <p>A tag <code>&lt;blockquote&gt;</code> é usada para citar blocos de texto de outras fontes.</p>
+    <div class="example">
+        <code>&lt;blockquote&gt;Esta é uma citação famosa de uma pessoa importante.&lt;/blockquote&gt;</code>
+        <blockquote>Esta é uma citação famosa de uma pessoa importante.</blockquote>
+    </div>
+
+    <h2 id="fonte">Fonte: <code>&lt;font&gt;</code></h2>   <a href="#indice">Voltar ao início</a>
+    <p>A tag <code>&lt;font&gt;</code> é usada para definir a cor, o tamanho e o tipo de fonte do texto. Nota: esta tag está obsoleta e é melhor usar CSS para estilizar fontes.</p>
+    <div class="example">
+        <code>&lt;font color="blue" size="4" face="Arial"&gt;Texto estilizado com a tag font&lt;/font&gt;</code>
+        <font color="blue" size="4" face="Arial">Texto estilizado com a tag font</font>
+    </div>
+
+    <h2 id="abreviacoes">Abreviações: <code>&lt;abbr&gt;</code></h2>   <a href="#indice">Voltar ao início</a>
+    <p>A tag <code>&lt;abbr&gt;</code> é usada para definir abreviações ou acrônimos, fornecendo uma descrição mais detalhada quando o usuário passa o mouse sobre o texto.</p>
+    <div class="example">
+        <code>&lt;p&gt;&lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt; é a linguagem de marcação usada para criar páginas web.&lt;/p&gt;</code>
+        <p><abbr title="HyperText Markup Language">HTML</abbr> é a linguagem de marcação usada para criar páginas web.</p>
+    </div>
+
+    <p>Essas tags são a base para criar e estruturar o conteúdo de uma página web. Experimente usá-las em seus projetos para melhorar a formatação e a apresentação do seu conteúdo! Se você tiver alguma dúvida ou quiser saber mais sobre outras tags HTML, deixe um comentário abaixo!</p>
+</body>
+</html>
